@@ -1,0 +1,8 @@
+default: --no-source --color --format pretty
+
+add_3_item_carrinho: -t @additenscarrinho -f html -o html_report.html
+
+comprar_produto: -t @comprarproduto -f html -o html_report.html
+
+retirar_item_mais_caro_carrinho: -t @retiraritemcaro -f html -o html_report.html
+
